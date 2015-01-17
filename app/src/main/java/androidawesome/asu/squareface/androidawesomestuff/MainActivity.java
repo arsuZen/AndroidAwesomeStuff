@@ -2,7 +2,6 @@ package androidawesome.asu.squareface.androidawesomestuff;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -10,7 +9,6 @@ import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
-    private static final String TAG_SF = "squareface";
 
     private static String TAG = "mTag";
 
@@ -47,17 +45,5 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.d(TAG_SF, "SF onStop!");
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        Log.d(TAG_SF, "SF onStardo!!");
     }
 }
