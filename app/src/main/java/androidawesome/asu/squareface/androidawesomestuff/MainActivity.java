@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends ActionBarActivity {
 
     private static String TAG = "mTag";
+    private static String TAG_SF = "squareface";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
