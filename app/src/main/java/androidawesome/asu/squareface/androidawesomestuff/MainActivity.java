@@ -12,6 +12,8 @@ public class MainActivity extends ActionBarActivity {
 
     private static String TAG = "mTag";
     private static String TAG_SF = "squareface";
+//Testcomment
+    private TextView tvHello;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
