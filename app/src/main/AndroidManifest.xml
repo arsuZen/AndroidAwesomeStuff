@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Activities on mainActivity START-->
+        <activity android:name=".MaterialDesignActivity"/>
+        <activity android:name=".StyleActivity"/>
+        <activity android:name=".LayoutStuffActivity"/>
+        <activity android:name=".ComponentStuffActivity"/>
+        <activity android:name=".PatterStuffActivity"/>
+        <activity android:name=".AnimationStuffActivity"/>
+        <!-- Activities on mainActivity END-->
     </application>
 
 </manifest>
