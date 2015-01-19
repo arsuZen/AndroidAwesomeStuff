@@ -20,6 +20,7 @@ import androidawesome.asu.squareface.androidawesomestuff.style.stuff.StyleActivi
  * The category is following Material Design Spec from google.
  *  -http://www.google.com/design/spec/material-design/introduction.html
  *
+ *
  *  Interesting lib
  *  -https://github.com/navasmdc/MaterialDesignLibrary
  *  -https://github.com/keithellis/MaterialWidget

@@ -7,6 +7,8 @@ import androidawesome.asu.squareface.androidawesomestuff.R;
 
 /**
  * Created by asu on 1/19/15.
+ * Create a ListViewFragment ,GridViewFragment or any kinds of stuff can
+ * show different stuff.
  */
 public class AnimationStuffActivity extends ActionBarActivity {
 
