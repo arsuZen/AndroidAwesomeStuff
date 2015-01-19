@@ -5,6 +5,13 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 
+import androidawesome.asu.squareface.androidawesomestuff.animation.stuff.AnimationStuffActivity;
+import androidawesome.asu.squareface.androidawesomestuff.component.stuff.ComponentStuffActivity;
+import androidawesome.asu.squareface.androidawesomestuff.layout.stuff.LayoutStuffActivity;
+import androidawesome.asu.squareface.androidawesomestuff.material.design.MaterialDesignActivity;
+import androidawesome.asu.squareface.androidawesomestuff.pattern.stuff.PatterStuffActivity;
+import androidawesome.asu.squareface.androidawesomestuff.style.stuff.StyleActivity;
+
 
 /**
  * This project is aim to help us to understand Material Design, and

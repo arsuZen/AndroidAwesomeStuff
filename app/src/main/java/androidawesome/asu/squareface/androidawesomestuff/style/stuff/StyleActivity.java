@@ -1,7 +1,9 @@
-package androidawesome.asu.squareface.androidawesomestuff;
+package androidawesome.asu.squareface.androidawesomestuff.style.stuff;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+
+import androidawesome.asu.squareface.androidawesomestuff.R;
 
 /**
  * Created by asu on 1/19/15.

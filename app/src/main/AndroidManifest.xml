@@ -17,12 +17,12 @@
             </intent-filter>
         </activity>
         <!-- Activities on mainActivity START-->
-        <activity android:name=".MaterialDesignActivity"/>
-        <activity android:name=".StyleActivity"/>
-        <activity android:name=".LayoutStuffActivity"/>
-        <activity android:name=".ComponentStuffActivity"/>
-        <activity android:name=".PatterStuffActivity"/>
-        <activity android:name=".AnimationStuffActivity"/>
+        <activity android:name=".material.design.MaterialDesignActivity"/>
+        <activity android:name=".style.stuff.StyleActivity"/>
+        <activity android:name=".layout.stuff.LayoutStuffActivity"/>
+        <activity android:name=".component.stuff.ComponentStuffActivity"/>
+        <activity android:name=".pattern.stuff.PatterStuffActivity"/>
+        <activity android:name=".animation.stuff.AnimationStuffActivity"/>
         <!-- Activities on mainActivity END-->
     </application>
 
