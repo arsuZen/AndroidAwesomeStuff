@@ -26,14 +26,13 @@ public class AnimationStuffActivity extends ActionBarActivity implements Animati
     AnimationStuffAdapter mAdapter;
 
 
-    private String[] topics = {"Topic A", "Topic B", "Topic C", "Topic D,"};
+    private String[] topics = {"Topic A", "Topic B", "Topic C", "Topic D", "Topic E"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animation_stuff);
         mRecyclerView = (RecyclerView) findViewById(R.id.mRecyclerView);
-        Log.d(TAG, "mRecyclerView is " + mRecyclerView == null ? "null" : "not null");
 
         /**
          *  use this setting to improve performance if you know that changes
@@ -64,5 +63,16 @@ public class AnimationStuffActivity extends ActionBarActivity implements Animati
     @Override
     public void onOnItemClicked(View itemView, int position) {
         Toast.makeText(this,String.valueOf(position)+" was clicked!",Toast.LENGTH_SHORT).show();
+        // startActivity about those topic
+        switch(position){
+            case 0:
+                break;
+            case 1:
+                break;
+            case 2:
+                break;
+            //......
+        }
+
     }
 }

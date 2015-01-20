@@ -69,10 +69,7 @@ public class AnimationStuffAdapter extends RecyclerView.Adapter<AnimationStuffAd
 
     public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
-
-
         public TextView tvDescription;
-        public ImageView imgTopic;
 
         /**
          * FindViewByID~
@@ -82,7 +79,6 @@ public class AnimationStuffAdapter extends RecyclerView.Adapter<AnimationStuffAd
         public MyViewHolder(View itemView) {
             super(itemView);
             tvDescription = (TextView) itemView.findViewById(R.id.tvDescription);
-            imgTopic = (ImageView) itemView.findViewById(R.id.imgTopic);
             itemView.setOnClickListener(this);
 
         }
