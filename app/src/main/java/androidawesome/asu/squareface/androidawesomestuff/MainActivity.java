@@ -7,6 +7,7 @@ import android.view.View;
 
 import androidawesome.asu.squareface.androidawesomestuff.animation.stuff.AnimationStuffActivity;
 import androidawesome.asu.squareface.androidawesomestuff.component.stuff.ComponentStuffActivity;
+import androidawesome.asu.squareface.androidawesomestuff.coolstuff.CoolStuffActivity;
 import androidawesome.asu.squareface.androidawesomestuff.layout.stuff.LayoutStuffActivity;
 import androidawesome.asu.squareface.androidawesomestuff.material.design.MaterialDesignActivity;
 import androidawesome.asu.squareface.androidawesomestuff.pattern.stuff.PatterStuffActivity;
@@ -45,6 +46,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         findViewById(R.id.btn_components).setOnClickListener(this);
         findViewById(R.id.btn_patterns).setOnClickListener(this);
         findViewById(R.id.btn_animations).setOnClickListener(this);
+        findViewById(R.id.btn_coolStuff).setOnClickListener(this);
 
     }
 
@@ -105,6 +107,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 break;
             case R.id.btn_animations:
                 intent = new Intent(this,AnimationStuffActivity.class);
+                this.startActivity(intent);
+                break;
+            case R.id.btn_coolStuff:
+                intent = new Intent(this, CoolStuffActivity.class);
                 this.startActivity(intent);
                 break;
         }

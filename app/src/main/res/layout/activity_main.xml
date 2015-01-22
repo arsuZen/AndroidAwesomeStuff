@@ -77,5 +77,19 @@
                 />
 
         </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btn_coolStuff"
+                android:text="@string/activity_main_btn7"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/activity_main_table_cell_height"
+                android:layout_weight="1"
+                android:textColor="@color/primary_text_default_material_dark"
+                android:background="@drawable/btn_bg_indigo"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_display_1"/>
+        </TableRow>
     </TableLayout>
+
 </ScrollView>

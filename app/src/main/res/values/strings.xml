@@ -11,5 +11,6 @@
     <string name="activity_main_btn4">Components</string>
     <string name="activity_main_btn5">Pattern</string>
     <string name="activity_main_btn6">Animations</string>
+    <string name="activity_main_btn7">Cool-Stuff!!!</string>
 
 </resources>

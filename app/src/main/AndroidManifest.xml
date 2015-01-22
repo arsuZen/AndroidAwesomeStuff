@@ -23,6 +23,7 @@
         <activity android:name=".component.stuff.ComponentStuffActivity"/>
         <activity android:name=".pattern.stuff.PatterStuffActivity"/>
         <activity android:name=".animation.stuff.AnimationStuffActivity"/>
+        <activity android:name=".coolstuff.CoolStuffActivity"/>
         <!-- Activities on mainActivity END-->
     </application>
 
