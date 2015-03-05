@@ -24,6 +24,7 @@
         <activity android:name=".pattern.stuff.PatterStuffActivity"/>
         <activity android:name=".animation.stuff.AnimationStuffActivity"/>
         <activity android:name=".coolstuff.CoolStuffActivity"/>
+        <activity android:name=".coolstuff.InputGestureActivity"/>
         <!-- Activities on mainActivity END-->
     </application>
 
