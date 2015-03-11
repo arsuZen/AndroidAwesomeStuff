@@ -25,6 +25,7 @@
         <activity android:name=".animation.stuff.AnimationStuffActivity"/>
         <activity android:name=".coolstuff.CoolStuffActivity"/>
         <activity android:name=".coolstuff.InputGestureActivity"/>
+        <activity android:name=".component.stuff.PieChartActivity"/>
         <!-- Activities on mainActivity END-->
     </application>
 
